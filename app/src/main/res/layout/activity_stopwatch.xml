@@ -20,35 +20,263 @@
 
     <Button
         android:id="@+id/start_button"
-        android:layout_width="wrap_content"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:background="@color/teal_200"
+        android:background="@color/black"
         android:onClick="onClickStart"
         android:text="@string/start"
-        app:backgroundTint="@color/teal_200" />
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/black" />
 
     <Button
         android:id="@+id/stop_button"
-        android:layout_width="wrap_content"
+        android:layout_width="354dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
         android:background="@color/purple_700"
         android:onClick="onClickStop"
         android:text="@string/stop"
+        android:textColor="#FFFFFF"
         app:backgroundTint="@color/purple_700" />
 
     <Button
         android:id="@+id/reset_button"
-        android:layout_width="wrap_content"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="8dp"
-        android:background="@color/teal_700"
+        android:background="@color/white"
         android:onClick="onClickReset"
         android:text="@string/reset"
-        app:backgroundTint="@color/purple_500" />
+        android:textColor="#070707"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/vuelta_button"
+        android:layout_width="355dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="#4E4E4E"
+        android:onClick="onClickVuelta"
+        android:text="@string/vuelta"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#4E4E4E" />
+
+    <LinearLayout
+        android:layout_width="354dp"
+        android:layout_height="225dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta1"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta1"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tiempo1"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta2" />
+
+            <TextView
+                android:id="@+id/tiempo2"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta3"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta3" />
+
+            <TextView
+                android:id="@+id/tiempo3"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta4"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta4" />
+
+            <TextView
+                android:id="@+id/tiempo4"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta5"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta5" />
+
+            <TextView
+                android:id="@+id/tiempo5"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta6"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta6" />
+
+            <TextView
+                android:id="@+id/tiempo6"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta7"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta7" />
+
+            <TextView
+                android:id="@+id/tiempo7"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta8"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta8" />
+
+            <TextView
+                android:id="@+id/tiempo8"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta9"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta9" />
+
+            <TextView
+                android:id="@+id/tiempo9"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vuelta10"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vuelta10" />
+
+            <TextView
+                android:id="@+id/tiempo10"
+                android:layout_width="211dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
